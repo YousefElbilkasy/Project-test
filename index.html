@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth transition-all">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr.Mohamed Elfawakhry</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="src/all.min.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
+    <nav class="bg-white p-4 shadow">
+      <div class="container mx-auto flex justify-between items-center w-11/12">
+        <div class="nav-logo space-x-4">
+          <a href="#">
+            <img src="images/Old-Logo.png" alt="Logo" class="w-28" />
+          </a>
+        </div>
+
+        <div class="space-x-4">
+          <a href="#" class="text-black hover:text-gamboge font-bold">Home</a>
+          <a href="#" class="text-black hover:text-gamboge font-bold">About</a>
+          <a href="#" class="text-black hover:text-gamboge font-bold"
+            >Services</a
+          >
+          <a href="#" class="text-black hover:text-gamboge font-bold"
+            >Contact</a
+          >
+        </div>
+
+        <div class="space-x-4">
+          <a
+            href="#"
+            class="bg-gamboge hover:bg-gamboge-400 rounded px-4 py-2 text-white shadow"
+            >Make an Appointment</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div
+        class="container mx-auto flex items-center w-11/12 relative h-screen"
+      >
+        <div
+          class="header-content w-1/2 h-2/3 p-8 flex flex-col justify-evenly"
+        >
+          <a
+            href="#"
+            class="text-gamboge border-2 border-gray-200 p-2 w-fit rounded font-bold hover:bg-gray-200"
+            >👋 Hey! We Are Dentists</a
+          >
+          <h1 class="text-6xl font-bold text-black leading-tight">
+            Helping You to Bring Back Your Happy Smile
+          </h1>
+          <p class="text-xl text-gray-500 my-6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+            reiciendis nihil laborum voluptatibus ut soluta necessitatibus
+            suscipit molestias eveniet, fugiat et, atque earum. Cupiditate ipsam
+            voluptatem asperiores, labore ab unde.
+          </p>
+        </div>
+
+        <div
+          class="header-image w-1/2 h-full bg-no-repeat bg-happy_doctor bg-cover bg-center"
+        ></div>
+
+        <div
+          class="book-section p-4 bg-white absolute bottom-5 rounded left-16 w-11/12 shadow-2xl grid grid-cols-4 grid-rows-2 gap-3 mx-auto"
+        >
+          <div class="p-4 flex items-center justify-start">
+            <i class="fa-regular fa-envelope-open mr-4 text-gamboge"></i>
+            <p class="font-bold">Email Address</p>
+          </div>
+          <div class="p-4 flex items-center justify-start">
+            <i class="fa-solid fa-phone mr-4 text-gamboge"></i>
+            <p class="font-bold">Phone Number</p>
+          </div>
+          <div class="p-4 flex items-center justify-start">
+            <i class="fa-regular fa-calendar-days mr-4 text-gamboge"></i>
+            <p class="font-bold">Date</p>
+          </div>
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="col-start-1 p-4 border-gray-200 border-solid border-2 outline-none rounded focus:border-gamboge"
+          />
+          <input
+            type="tel"
+            placeholder="Your Phone"
+            class="p-4 border-gray-200 border-solid border-2 outline-none rounded focus:border-gamboge"
+          />
+          <input
+            type="date"
+            placeholder="Date"
+            class="p-4 border-gray-200 border-solid border-2 outline-none rounded focus:border-gamboge"
+          />
+          <button
+            class="p-4 flex items-center justify-center bg-gamboge text-white hover:bg-gamboge-400"
+          >
+            <i class="fa-solid fa-paper-plane mr-4"></i>
+            <p>Book Now</p>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div
+        class="container mx-auto min-h-96 w-11/12 flex flex-col justify-evenly items-center my-10"
+      >
+        <div class="cards grid grid-cols-3 gap-14 h-2/5">
+          <div
+            class="card p-4 shadow-xl flex flex-col items-center justify-between rounded"
+          >
+            <div class="card-icon bg-gamboge-800 p-2 rounded text-gamboge my-4">
+              <i class="fa-solid fa-money-check text-4xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold my-2">Affordable Price</h3>
+            <p class="text-gray-500 text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+              reiciendis nihil laborum voluptatibus ut soluta necessitatibus
+              suscipit molestias eveniet, fugiat et, atque earum.
+            </p>
+          </div>
+
+          <div
+            class="card p-4 shadow-xl flex flex-col items-center justify-around rounded"
+          >
+            <div class="card-icon bg-gamboge-800 p-2 rounded text-gamboge my-4">
+              <i class="fa-solid fa-tooth text-4xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold my-2">Professional Dentist</h3>
+            <p class="text-gray-500 text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+              reiciendis nihil laborum voluptatibus ut soluta necessitatibus
+              suscipit molestias eveniet, fugiat et, atque earum.
+            </p>
+          </div>
+
+          <div
+            class="card p-4 shadow-xl flex flex-col items-center justify-around rounded"
+          >
+            <div class="card-icon bg-gamboge-800 p-2 rounded text-gamboge my-4">
+              <i class="fa-solid fa-hospital-user text-4xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold my-2">Satisfactory Service</h3>
+            <p class="text-gray-500 text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+              reiciendis nihil laborum voluptatibus ut soluta necessitatibus
+              suscipit molestias eveniet, fugiat et, atque earum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto w-11/12 h-screen my-10">
+        <div
+          class="services-section flex justify-center items-center h-full w-full"
+        >
+          <div
+            class="image-container w-1/2 h-full bg-no-repeat bg-doctor_5 bg-cover bg-center"
+          ></div>
+
+          <div
+            class="service-content w-1/2 h-full flex flex-col justify-evenly p-10"
+          >
+            <a
+              href="#"
+              class="text-gamboge border-2 border-gray-200 p-2 w-fit rounded font-bold hover:bg-gray-200"
+              >More About Us</a
+            >
+
+            <h1 class="text-6xl font-bold text-gamboge leading-tight">
+              The Best Dental Clinic That You Can Trust
+            </h1>
+
+            <p class="text-xl text-gray-500 my-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+              reiciendis nihil laborum voluptatibus ut soluta necessitatibus
+              suscipit molestias eveniet, fugiat et, atque earum. Cupiditate
+              ipsam voluptatem asperiores, labore ab unde.
+            </p>
+
+            <div class="benefits-container flex flex-wrap justify-between">
+              <div class="benefit flex items-center w-1/2 mb-4">
+                <i
+                  class="fa-solid fa-circle-check text-gamboge text-xl mr-4"
+                ></i>
+                <p class="text-xl font-bold text-black">Modern Equipment</p>
+              </div>
+
+              <div class="benefit flex items-center w-1/2 mb-4">
+                <i
+                  class="fa-solid fa-circle-check text-gamboge text-xl mr-4"
+                ></i>
+                <p class="text-xl font-bold text-black">Online Appointment</p>
+              </div>
+
+              <div class="benefit flex items-center w-1/2">
+                <i
+                  class="fa-solid fa-circle-check text-gamboge text-xl mr-4"
+                ></i>
+                <p class="text-xl font-bold text-black">Comfortable Clinic</p>
+              </div>
+
+              <div class="benefit flex items-center w-1/2">
+                <i
+                  class="fa-solid fa-circle-check text-gamboge text-xl mr-4"
+                ></i>
+                <p class="text-xl font-bold text-black">Always Monitored</p>
+              </div>
+            </div>
+
+            <div class="services-links flex">
+              <a
+                href="#"
+                class="text-white border-2 border-gray-200 bg-gamboge py-3 px-7 w-fit rounded mr-6 hover:bg-gamboge-400"
+                >Learn More</a
+              >
+              <a
+                href="#"
+                class="text-gamboge border-2 border-gray-200 bg-gamboge-900 py-3 px-7 w-fit rounded hover:bg-gamboge-800"
+                >Make an Appointment</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="why-choose-us container mx-auto w-11/12 h-screen flex relative my-10"
+      >
+        <div
+          class="why-choose-us-content w-1/3 h-full flex flex-col justify-evenly p-10"
+        >
+          <a
+            href="#"
+            class="text-gamboge border-2 border-gray-200 p-2 w-fit rounded font-bold hover:bg-gray-200"
+            >Why Choose Us</a
+          >
+
+          <h1 class="text-5xl font-bold text-gamboge leading-tight">
+            Helping Your Dental Problems
+          </h1>
+          <p class="text-xl text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            voluptatum cum eligendi corrupti ab doloremque, temporibus pariatur,
+            ipsam perspiciatis maxime, accusamus officiis deserunt quia dolores
+            officia minima ducimus aut animi.
+          </p>
+
+          <div>
+            <div class="flex justify-between items-center">
+              <span class="font-semibold text-gray-800">
+                Dental and Mouth Care
+              </span>
+              <span class="text-gray-500">95%</span>
+            </div>
+            <div class="w-full bg-gamboge-900 rounded-full h-2 mt-2">
+              <div class="bg-gamboge h-2 rounded-full w-[95%]"></div>
+            </div>
+          </div>
+
+          <!-- Cosmetic Treatment -->
+          <div>
+            <div class="flex justify-between items-center">
+              <span class="font-semibold text-gray-800"
+                >Cosmetic Treatment</span
+              >
+              <span class="text-gray-500">87%</span>
+            </div>
+            <div class="w-full bg-gamboge-900 rounded-full h-2 mt-2">
+              <div class="bg-gamboge h-2 rounded-full w-[87%]"></div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="why-choose-us-image w-1/2 bg-center h-full bg-no-repeat bg-doctor_4_transparent bg-cover"
+        ></div>
+
+        <div
+          class="why-choose-us-content rounded w-1/3 h-4/6 bg-white shadow flex flex-col justify-evenly p-10 absolute right-0 bottom-5"
+        >
+          <h1 class="text-4xl font-bold text-gamboge leading-tight">
+            Don't Hesitate to Do Consultation
+          </h1>
+
+          <p class="text-xl text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            voluptatum cum eligendi corrupti ab doloremque, temporibus pariatur,
+            ipsam perspiciatis maxime, accusamus officiis deserunt quia dolores
+            officia minima ducimus aut animi.
+          </p>
+
+          <div class="flex justify-between items-center">
+            <p class="font-bold">Monday - Friday</p>
+            <p class="text-gray-500">8:00AM - 10:00PM</p>
+          </div>
+
+          <div class="flex justify-between items-center">
+            <p class="font-bold">Saturday</p>
+            <p class="text-gray-500">8:00AM - 10:00PM</p>
+          </div>
+
+          <div class="flex justify-between items-center">
+            <p class="font-bold">Sunday</p>
+            <p class="text-gray-500">8:00AM - 10:00PM</p>
+          </div>
+
+          <button
+            class="bg-gamboge w-full font-bold text-white py-3 px-7 rounded shadow hover:bg-gamboge-400"
+          >
+            Call +01234567890
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bg-gamboge-900 w-full h-screen flex flex-col my-10">
+        <div
+          class="ratio-cards-container p-10 h-1/5 mx-auto w-11/12 grid grid-cols-4 grid-rows-1 gap-5"
+        >
+          <div class="ratio-card flex justify-evenly items-center">
+            <div
+              class="ratio-card-icon bg-gamboge-600 h-fit p-3 rounded text-white text-6xl flex justify-center items-center"
+            >
+              <i class="fa-solid fa-tooth"></i>
+            </div>
+            <div class="ratio-card-content flex flex-col justify-around">
+              <h1 class="text-4xl font-bold text-black">
+                1200 <i class="fa-solid fa-plus text-3xl text-gamboge-600"></i>
+              </h1>
+              <p class="text-black">Happy Patients</p>
+            </div>
+          </div>
+          <div class="ratio-card flex justify-around items-center">
+            <div
+              class="ratio-card-icon bg-gamboge-600 h-fit p-3 rounded text-white text-5xl flex justify-center items-center"
+            >
+              <i class="fa-regular fa-hospital"></i>
+            </div>
+            <div class="ratio-card-content flex flex-col justify-around">
+              <h1 class="text-4xl font-bold text-black">
+                15 <i class="fa-solid fa-plus text-3xl text-gamboge-600"></i>
+              </h1>
+              <p class="text-black">Year Experience</p>
+            </div>
+          </div>
+          <div class="ratio-card flex justify-around items-center">
+            <div
+              class="ratio-card-icon bg-gamboge-600 h-fit p-3 rounded text-white text-6xl flex justify-center items-center"
+            >
+              <i class="fa-solid fa-user-doctor"></i>
+            </div>
+            <div class="ratio-card-content flex flex-col justify-around">
+              <h1 class="text-4xl font-bold text-black">
+                70 <i class="fa-solid fa-plus text-3xl text-gamboge-600"></i>
+              </h1>
+              <p class="text-black">Doctor & Staff</p>
+            </div>
+          </div>
+          <div class="ratio-card flex justify-around items-center">
+            <div
+              class="ratio-card-icon bg-gamboge-600 h-fit p-3 rounded text-white text-5xl flex justify-center items-center"
+            >
+              <i class="fa-solid fa-calendar-check"></i>
+            </div>
+            <div class="ratio-card-content flex flex-col justify-around">
+              <h1 class="text-4xl font-bold text-black">
+                340 <i class="fa-solid fa-plus text-3xl text-gamboge-600"></i>
+              </h1>
+              <p class="text-black">Online Appointment</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="ratio-photos-container h-4/5 grid grid-cols-gallery grid-rows-2"
+        >
+          <div class="bg-doctor_3 bg-center bg-cover"></div>
+          <div
+            class="bg-gamboge text-white flex flex-col justify-center items-center p-10 gap-5"
+          >
+            <h4 class="text-2xl font-bold">The Best Services</h4>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et magna.
+            </p>
+          </div>
+          <div
+            class="bg-doctor_4 bg-cover col-start-3 row-start-1 row-end-3"
+          ></div>
+          <div
+            class="bg-gamboge-400 text-center text-white p-10 flex flex-col justify-center items-center gap-5"
+          >
+            <h4 class="text-2xl font-bold">Expert Doctor</h4>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            </p>
+          </div>
+          <div class="bg-doctor_5 bg-cover"></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="container mx-auto w-11/12 h-screen flex flex-col justify-evenly items-center my-10"
+      >
+        <div class="flex flex-col justify-evenly items-center h-1/4">
+          <a
+            href="#"
+            class="text-gamboge border-2 border-gray-200 p-2 w-fit rounded font-bold hover:bg-gray-200"
+            >Our Services</a
+          >
+          <h1 class="text-5xl font-bold text-black leading-tight">Services</h1>
+          <p class="text-gray-500 text-center w-2/3">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula aenean massa.
+          </p>
+        </div>
+
+        <div
+          class="services-cards-container h-3/4 grid grid-cols-3 grid-rows-2 gap-8"
+        >
+          <div
+            class="service-card bg-cover bg-teeth_checkup rounded flex flex-col justify-end items-start"
+          >
+            <div
+              class="service-card-content p-4 bg-white rounded h-1/2 w-2/3 flex flex-col justify-around"
+            >
+              <div class="flex items-center">
+                <i
+                  class="fa-solid fa-magnifying-glass text-gamboge mr-4 text-2xl"
+                ></i>
+                <h1 class="text-2xl font-bold text-black">Teeth Checkup</h1>
+              </div>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+              <a href="#" class="text-gamboge font-bold">
+                <div class="flex items-center">
+                  <p class="mr-2">Learn More</p>
+                  <i class="fa-solid fa-circle-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="service-card bg-cover bg-left-bottom bg-teeth_whitening_2 rounded flex flex-col justify-end items-start"
+          >
+            <div
+              class="service-card-content p-4 bg-white rounded h-1/2 w-2/3 flex flex-col justify-around"
+            >
+              <div class="flex items-center">
+                <i
+                  class="fa-solid fa-wand-magic-sparkles text-gamboge mr-4 text-2xl"
+                ></i>
+                <h1 class="text-2xl font-bold text-black">Teeth Whitening</h1>
+              </div>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+              <a href="#" class="text-gamboge font-bold">
+                <div class="flex items-center">
+                  <p class="mr-2">Learn More</p>
+                  <i class="fa-solid fa-circle-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="service-card bg-cover bg-doctor_2 rounded flex flex-col justify-end items-start"
+          >
+            <div
+              class="service-card-content p-4 bg-white rounded h-1/2 w-2/3 flex flex-col justify-around"
+            >
+              <div class="flex items-center">
+                <i class="fa-solid fa-tooth text-gamboge mr-4 text-2xl"></i>
+                <h1 class="text-2xl font-bold text-black">Dental Braces</h1>
+              </div>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+              <a href="#" class="text-gamboge font-bold">
+                <div class="flex items-center">
+                  <p class="mr-2">Learn More</p>
+                  <i class="fa-solid fa-circle-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="service-card bg-cover bg-center bg-teeth_implant rounded flex flex-col justify-end items-start"
+          >
+            <div
+              class="service-card-content p-4 bg-white rounded h-1/2 w-2/3 flex flex-col justify-around"
+            >
+              <div class="flex items-center">
+                <i
+                  class="fa-regular fa-face-grimace text-gamboge mr-4 text-2xl"
+                ></i>
+                <h1 class="text-2xl font-bold text-black">Teeth Implants</h1>
+              </div>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+              <a href="#" class="text-gamboge font-bold">
+                <div class="flex items-center">
+                  <p class="mr-2">Learn More</p>
+                  <i class="fa-solid fa-circle-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="service-card bg-cover bg-bottom bg-dental_filling rounded flex flex-col justify-end items-start"
+          >
+            <div
+              class="service-card-content p-4 bg-white rounded h-1/2 w-2/3 flex flex-col justify-around"
+            >
+              <div class="flex items-center">
+                <i
+                  class="fa-solid fa-screwdriver-wrench text-gamboge mr-4 text-2xl"
+                ></i>
+                <h1 class="text-2xl font-bold text-black">Dental Filling</h1>
+              </div>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+              <a href="#" class="text-gamboge font-bold">
+                <div class="flex items-center">
+                  <p class="mr-2">Learn More</p>
+                  <i class="fa-solid fa-circle-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="service-card bg-cover bg-bottom bg-cosmetic rounded flex flex-col justify-end items-start"
+          >
+            <div
+              class="service-card-content p-4 bg-white rounded h-1/2 w-2/3 flex flex-col justify-around"
+            >
+              <div class="flex items-center">
+                <i
+                  class="fa-solid fa-teeth-open text-gamboge mr-4 text-2xl"
+                ></i>
+                <h1 class="text-2xl font-bold text-black">Cosmetic</h1>
+              </div>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              </p>
+              <a href="#" class="text-gamboge font-bold">
+                <div class="flex items-center">
+                  <p class="mr-2">Learn More</p>
+                  <i class="fa-solid fa-circle-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="container mx-auto w-11/12 h-screen flex justify-between items-center p-10 my-10"
+      >
+        <div class="w-1/2 h-2/3 flex flex-col justify-start items-start p-10">
+          <a
+            href="#"
+            class="text-gamboge border-2 border-gray-200 p-2 rounded font-bold mb-6 hover:bg-gray-200"
+            >Our Testimonial</a
+          >
+          <h1 class="text-5xl font-bold text-black leading-tight w-4/5 mb-6">
+            The Honest Review From Our Client
+          </h1>
+          <p class="text-gray-500 text-left w-3/4 mb-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            beatae obcaecati illum magni magnam sequi natus earum, accusantium
+            laboriosam facere
+          </p>
+          <button
+            class="bg-gamboge font-bold text-white py-3 px-7 rounded hover:bg-gamboge-400"
+          >
+            See All Review
+          </button>
+        </div>
+
+        <div class="w-1/2 h-2/3 flex flex-col justify-evenly items-center">
+          <div class="flex justify-between shadow-2xl rounded relative">
+            <i
+              class="fa-solid fa-quote-left text-gamboge text-3xl absolute -left-5 top-4"
+            ></i>
+            <div class="w-3/4 flex flex-col items-start p-6">
+              <p class="text-gray-500 text-left mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                fuga doloribus aspernatur veritatis obcaecati
+              </p>
+              <h4 class="text-2xl font-bold mb-4">José Correia</h4>
+              <p class="text-gray-500">Marketing Manager</p>
+            </div>
+            <div class="w-1/4 bg-doctor_4 bg-cover bg-center"></div>
+          </div>
+
+          <div class="flex justify-between shadow-2xl rounded relative">
+            <i
+              class="fa-solid fa-quote-left text-gamboge text-3xl absolute -left-5 top-4"
+            ></i>
+            <div class="w-3/4 flex flex-col items-start p-6">
+              <p class="text-gray-500 text-left mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                fuga doloribus aspernatur veritatis obcaecati
+              </p>
+              <h4 class="text-2xl font-bold mb-4">Agathe Dufour</h4>
+              <p class="text-gray-500">Company CEO</p>
+            </div>
+            <div class="w-1/4 bg-doctor_5 bg-cover bg-center"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex flex-col justify-center h-screen my-10">
+        <div class="w-full h-2/3 bg-gamboge-900">
+          <div class="flex justify-center container mx-auto h-full w-11/12">
+            <div
+              class="flex flex-col justify-center items-start p-5 w-1/2 h-full"
+            >
+              <a
+                href="#"
+                class="text-gamboge border-2 border-gray-300 p-2 font-bold mb-5 rounded hover:bg-gray-300"
+                >The Best Services</a
+              >
+              <h4 class="text-5xl font-bold text-black mb-5">
+                Dedicated to Give You The Best Services
+              </h4>
+              <p class="text-gray-500 text-left mb-5 w-3/4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro,
+                laborum possimus. Facere nobis enim sed impedit soluta
+                aspernatur ipsa omnis quaerat, possimus tempore, error delectus
+                placeat, quia minus itaque excepturi.
+              </p>
+              <button
+                class="bg-gamboge font-bold text-white py-3 px-7 rounded hover:bg-gamboge-400"
+              >
+                Contact US
+              </button>
+            </div>
+            <div class="w-1/2 h-full bg-happy_doctor bg-cover"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="container mx-auto w-11/12 h-screen flex flex-col justify-evenly items-center my-10"
+      >
+        <div class="h-1/4 flex flex-col justify-start items-center">
+          <a
+            href="#"
+            class="mb-5 text-gamboge border-2 border-gray-200 hover:bg-gray-200 py-3 px-7 w-fit rounded font-bold"
+            >Our Blogs</a
+          >
+          <h4 class="mb-5 text-3xl font-bold text-black">Blogs</h4>
+          <p class="mb-5 text-gray-500 w-2/3 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat fuga
+            doloribus aspernatur veritatis obcaecati
+          </p>
+        </div>
+        <div class="h-2/3 w-full grid grid-cols-3 grid-rows-1 gap-5">
+          <div class="card rounded shadow-xl">
+            <div
+              class="h-1/2 rounded bg-dental_filling bg-bottom bg-cover flex flex-col justify-end items-start"
+            >
+              <div class="p-2 bg-white text-gamboge font-bold rounded-tr">
+                <p class="">News</p>
+              </div>
+            </div>
+            <div class="h-1/2 p-5 flex flex-col justify-evenly">
+              <h4 class="text-2xl font-bold">Lorem ipsum dolor sit amet</h4>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                fuga doloribus aspernatur veritatis obcaecati
+              </p>
+              <button
+                class="rounded text-white bg-gamboge font-bold py-2 px-7 w-fit hover:bg-gamboge-400"
+              >
+                Read More <i class="fa-solid fa-arrow-right-long"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card rounded shadow-xl">
+            <div
+              class="h-1/2 rounded bg-teeth_whitening_2 bg-bottom bg-cover flex flex-col justify-end items-start"
+            >
+              <div class="p-2 bg-white text-gamboge font-bold rounded-tr">
+                <p>Tips</p>
+              </div>
+            </div>
+            <div class="h-1/2 p-5 flex flex-col justify-evenly">
+              <h4 class="text-2xl font-bold">Lorem ipsum dolor sit amet</h4>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                fuga doloribus aspernatur veritatis obcaecati
+              </p>
+              <button
+                class="rounded text-white bg-gamboge font-bold py-2 px-7 w-fit hover:bg-gamboge-400"
+              >
+                Read More <i class="fa-solid fa-arrow-right-long"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card rounded shadow-xl">
+            <div
+              class="h-1/2 rounded bg-teeth_checkup_2 bg-center bg-cover flex flex-col justify-end items-start"
+            >
+              <div class="p-2 bg-white text-gamboge font-bold rounded-tr">
+                <p>Health</p>
+              </div>
+            </div>
+            <div class="h-1/2 p-5 flex flex-col justify-evenly">
+              <h4 class="text-2xl font-bold">Lorem ipsum dolor sit amet</h4>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                fuga doloribus aspernatur veritatis obcaecati
+              </p>
+              <button
+                class="rounded text-white bg-gamboge font-bold py-2 px-7 w-fit hover:bg-gamboge-400"
+              >
+                Read More <i class="fa-solid fa-arrow-right-long"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="container mx-auto w-11/12 h-screen flex justify-between items-center my-10"
+      >
+        <div
+          class="w-full h-2/3 bg-gamboge-900 flex justify-center items-center"
+        >
+          <div
+            class="w-1/2 h-full flex flex-col justify-evenly items-start p-10"
+          >
+            <a
+              href="#"
+              class="text-gamboge border-2 border-gray-300 font-bold px-5 py-2 rounded hover:bg-gray-300"
+              >Contact Us</a
+            >
+            <h4 class="text-4xl font-bold text-black">Become The Next Our</h4>
+            <p class="text-gray-500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+              maxime quam nulla a architecto rem dignissimos inventore aut
+            </p>
+            <button
+              class="bg-gamboge font-bold text-white px-5 py-2 rounded hover:bg-gamboge-400"
+            >
+              Book An Appointment
+            </button>
+          </div>
+          <div
+            class="w-1/2 h-full bg-doctor_4_transparent bg-contain bg-no-repeat"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gamboge-400 text-white py-12">
+      <div
+        class="container w-11/12 mx-auto grid grid-cols-1 md:grid-cols-4 gap-8"
+      >
+        <!-- Logo and Description -->
+        <div>
+          <img src="images/Logo.png" alt="Logo" class="mb-4 w-28" />
+          <p class="text-sm text-gray-300 mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <div class="flex space-x-4 text-gray-300">
+            <a href="#" class="hover:text-white"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="hover:text-white"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" class="hover:text-white"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="hover:text-white"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- Helpful Links -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Helpful Links</h3>
+          <ul class="space-y-2 text-gray-300 text-sm">
+            <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-white">Support</a></li>
+            <li><a href="#" class="hover:text-white">FAQ</a></li>
+            <li><a href="#" class="hover:text-white">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Support</h3>
+          <ul class="space-y-2 text-gray-300 text-sm">
+            <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-white">Support</a></li>
+            <li><a href="#" class="hover:text-white">FAQ</a></li>
+            <li><a href="#" class="hover:text-white">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Us -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+          <form class="flex mb-4">
+            <input
+              type="email"
+              placeholder="Your Email Address..."
+              class="flex-1 px-4 py-2 rounded-l-md text-gray-700 focus:outline-none"
+            />
+            <button
+              type="submit"
+              class="bg-gamboge text-white px-4 py-2 rounded-r-md hover:bg-gamboge-400"
+            >
+              Sign Up
+            </button>
+          </form>
+          <p class="text-sm text-gray-300">
+            <span class="block"
+              ><i class="fa-solid fa-location-dot"></i> Jl. Patimura II No. 18,
+              Denpasar</span
+            >
+            <span><i class="fa-solid fa-phone"></i> +01234 567 890</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div
+        class="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-white"
+      >
+        <p>
+          &copy; Made with <i class="fa-solid fa-heart text-gamboge"></i> by
+          Yousef Elbilkasy
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
